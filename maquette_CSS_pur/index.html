@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-family: "Material Symbols Outlined";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 28px;
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      }
+    </style>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Maquette2</title>
+  </head>
+  <body>
+    <div id="conteneur">
+      <header class="grid">
+        <!-- MON COMPTE -->
+        <div id="moncompte">
+          <p><a href="#">MON COMPTE</a></p>
+          <span class="material-symbols-outlined"> lock </span>
+        </div>
+        <!-- INFOS -->
+        <div id="infos">
+          <span class="material-symbols-outlined"> warning </span>
+          <p>Dernier jour pour votre DNAS</p>
+        </div>
+        <!-- ==================== ZONE DECONNEXION / MESSAGERIE =====================-->
+        <div id="zonedeco">
+          <div id="blocdeco">
+            <div id="messagelink">
+              <span class="material-symbols-outlined" id="maillogo">
+                mail
+              </span>
+              <a href="ms-outlook:">Messagerie (2)</a>
+            </div>
+            <div id="decolink">
+              <a href="/deconnexion.html">Deconnexion</a>
+              <span class="material-symbols-outlined"> close </span>
+            </div>
+          </div>
+          <p id="siret">Entreprise XXXXXXXXXX N° siret : XXXXXXXXXXX</p>
+        </div>
+        <!-- NAVIGATION -->
+        <nav id="nav">
+          <ul>
+            <li class="homebutton">
+              <span class="material-symbols-outlined">home_app_logo</span>
+            </li>
+            <li><a href="#">MES INFOS</a></li>
+            <li><a href="#">MES AUTORISATIONS D'ACCES</a></li>
+            <li><a href="#">MES SALARIÉS</a></li>
+            <li><a href="#">MES COTISATIONS</a></li>
+            <li><a href="#">MES CONTRATS</a></li>
+            <li><a href="#">MES OPÉRATIONS</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--=========================== ZONE COORDONNEES ============================-->
+      <main class="content">
+        <section id="coordonnees">
+          <h1>Bienvenue entreprise XXXXXXXXXX</h1>
+          <div id="zonecoordonnees">
+            <h2>
+              <span class="material-symbols-outlined"> keep </span> Coordonnées
+            </h2>
+
+            <div class="symbolscoodonnees">
+              <span class="material-symbols-outlined"> pin </span>
+              <p><strong>SIRET :</strong> 0000000000</p>
+            </div>
+            <div class="symbolscoodonnees">
+              <span class="material-symbols-outlined"> home </span>
+              <p>
+                <strong>Adresse :</strong> 298 boulevard Voltaire 75002 Paris
+              </p>
+            </div>
+            <div class="symbolscoodonnees">
+              <span class="material-symbols-outlined"> call </span>
+              <p><strong> Téléphone :</strong> 02 02 02 02 02</p>
+            </div>
+            <div class="symbolscoodonnees">
+              <span class="material-symbols-outlined"> mail </span>
+              <p>
+                <strong> Adresse mail :</strong
+                ><a href="mailto:xxxxxxxx.paris@gmail.com">
+                  xxxxxxxx.paris@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- ============================== ZONE WARNING DOTTED ======================-->
+        <section id="zone-droite">
+          <div id="derniereco">Dernière connexion : le 10/03/2014 à 14:08</div>
+          <div id="warning-box">
+            <div class="logowarning">
+              <span class="material-symbols-outlined">warning</span>
+              <strong>Urgent</strong>
+            </div>
+            <p>
+              Il ne vous reste que <strong>3 jours</strong> pour remplir la
+              déclaration nominative annuelle des salaires (DNAS). Pour faire
+              votre déclaration, <a href="#">cliquez ici</a>.
+            </p>
+          </div>
+
+          <!-- ZONE MESSAGERIE -->
+          <div id="wrapper">
+            <div id="messagebox">
+              <h2>Messagerie</h2>
+              <span class="material-symbols-outlined mail-icon"> mail </span>
+              <a href="ms-outlook:"> <p>Vous avez 2 messages non-lus.</p> </a>
+            </div>
+            <!-- ZONE CONTACT BTP -->
+            <div id="contactbox">
+              <div id="contacth2">
+                <h2>Contact PRO BTP</h2>
+              </div>
+              <p>
+                <span class="material-symbols-outlined">person</span> Votre
+                conseiller : <strong>JEAN DUPONT</strong>
+              </p>
+              <p>
+                <span class="material-symbols-outlined">call</span> 04 04 04 04
+                04
+              </p>
+              <p>
+                <span class="material-symbols-outlined">mail</span>
+                <a href="#">Envoyer un e-mail à mon conseiller</a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="tableau">
+          <div id="tableauflag">
+            <span class="material-symbols-outlined"> flag </span>
+            <h2>Dernières opérations</h2>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Objet</th>
+                <th>Numéro d'opération</th>
+                <th>Auteur</th>
+                <th>Etat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08/03/2014</td>
+                <td>Mise à jour</td>
+                <td>17</td>
+                <td>Profil 2</td>
+                <td>Brouillon</td>
+              </tr>
+              <tr>
+                <td>28/02/2014</td>
+                <td>Affiliation</td>
+                <td>16</td>
+                <td>Profil 1</td>
+                <td>Brouillon</td>
+              </tr>
+              <tr>
+                <td>27/02/2014</td>
+                <td>Mise à jour</td>
+                <td>15</td>
+                <td>ADMIN</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>25/02/2014</td>
+                <td>Mise à jour</td>
+                <td>14</td>
+                <td>Profil 1</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>10/02/2014</td>
+                <td>DNAS</td>
+                <td>13</td>
+                <td>ADMIN</td>
+                <td>Validé</td>
+              </tr>
+              <tr>
+                <td>23/01/2014</td>
+                <td>Arrêt de travail</td>
+                <td>12</td>
+                <td>Profil 2</td>
+                <td>Validé</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="important">
+          <div id="importanth2">
+            <span class="material-symbols-outlined">bolt</span>
+            <h2>Important</h2>
+          </div>
+          <ul>
+            <li>
+              <strong>Nouveau :</strong> paiement des cotisations par chèque ou
+              par prélèvement à l'échéance, c'est vous qui choisissez !
+            </li>
+            <li>
+              <strong>Arrêt de travail &gt; 90 jours :</strong>
+              <a href="#">ce qui change au 1er janvier 2014</a>
+            </li>
+            <li>
+              <strong>Exonérations sociales et fiscales :</strong>
+              <a href="#"
+                >conformité des contrats prévoyance / frais de santé</a
+              >
+            </li>
+            <li>
+              <a href="#"><strong>Inscrivez-vous</strong></a> au télépaiement
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

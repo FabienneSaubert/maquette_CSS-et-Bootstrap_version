@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(71, 71, 71, 0.8);
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Boutons */
+input[type="button"] {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[value="Déconnexion"] {
+  background-color: #d9534f;
+  color: white;
+}
+
+input[value="Déconnexion"]:hover {
+  background-color: #c9302c;
+}
+
+input[value="Annuler"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+input[value="Annuler"]:hover {
+  background-color: #5a6268;
+}
