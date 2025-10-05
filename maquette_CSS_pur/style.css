@@ -317,11 +317,11 @@ strong {
 }
 
 #tableau thead {
-  background-color: #ccc;
+  background-color: beige;
 }
 
 #tableau tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: beige;
 }
 
 /* BLOC 4 IMPORTANT */

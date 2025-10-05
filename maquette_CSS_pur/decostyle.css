@@ -33,20 +33,20 @@ input[type="button"] {
   transition: background-color 0.3s;
 }
 
-input[value="Déconnexion"] {
+#deconnexion {
   background-color: #d9534f;
   color: white;
 }
 
-input[value="Déconnexion"]:hover {
+#deconnexion:hover {
   background-color: #c9302c;
 }
 
-input[value="Annuler"] {
+#annuler {
   background-color: #6c757d;
   color: white;
 }
 
-input[value="Annuler"]:hover {
+#annuler:hover {
   background-color: #5a6268;
 }
